@@ -1,3 +1,4 @@
+#include "dirent2.cpp"
 void dirent2::scan(string pstr)
 {
 	struct dir2 td;
@@ -51,7 +52,7 @@ void dirent2::print()
 	printf("nb = %d",this->nb);
 	printf("\n -- dirent2 print --\n");
 }
-string dirent2::Name_at(int id)
+std::string dirent2::Name_at(int id)
 {
 	if(id > -1 && id < this->nb)
 		return this->lp[id].name;
