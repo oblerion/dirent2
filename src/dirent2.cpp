@@ -1,4 +1,4 @@
-#include "dirent2.cpp"
+#include "dirent2.hpp"
 void dirent2::scan(string pstr)
 {
 	struct dir2 td;
