@@ -1,5 +1,5 @@
 # dirent2
-struct to more easy to use dirent.h,
+struct to more easy to use [dirent.h](https://github.com/tronkko/dirent),
 same to dirent get file and folder name in directory.
 ## some exemple
 ```cpp
