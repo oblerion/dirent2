@@ -1,6 +1,7 @@
 # dirent2
 Struct to more easy to use [dirent.h](https://github.com/tronkko/dirent).
-Same to dirent get file and folder info in directory.
+Same to dirent get file and folder information.
+Need dirent.h for work.
 ## some exemple
 ```cpp
 #include "dirent2.hpp"
