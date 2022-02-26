@@ -1,6 +1,6 @@
 # dirent2
-struct to more easy to use [dirent.h](https://github.com/tronkko/dirent),
-same to dirent get file and folder name in directory.
+Struct to more easy to use [dirent.h](https://github.com/tronkko/dirent).
+Same to dirent get file and folder info in directory.
 ## some exemple
 ```cpp
 #include "dirent2.hpp"
@@ -12,14 +12,14 @@ d2.print(); // print all name in console
 // advenced loop
 for(int i=0;i<d2.nd;i++)
 {
-  if(d2.Type_at(i)=='f')
-  {
-    printf("\n%s is file",d2.Name_at(i).c_str());
-  }
-  if(d2.Type_at(i)=='d')
-  {
-    printf("\n%s is directory",d2.Name_at(i).c_str());
-  }
+	if(d2.Type_at(i)=='f')
+  	{
+   		printf("\n%s is file",d2.Name_at(i).c_str());
+  	}
+  	if(d2.Type_at(i)=='d')
+  	{
+    		printf("\n%s is directory",d2.Name_at(i).c_str());
+  	}
 }
 
 ```
